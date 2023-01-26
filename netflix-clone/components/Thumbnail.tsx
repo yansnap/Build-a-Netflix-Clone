@@ -2,6 +2,8 @@ import { Movie } from '../typing';
 import Image from 'next/image';
 
 interface Props {
+  // when using firebase
+  //movie: Movie | DocumentData;
   movie: Movie;
 }
 
